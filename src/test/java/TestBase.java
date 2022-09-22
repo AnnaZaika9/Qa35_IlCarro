@@ -8,7 +8,7 @@ public class TestBase {
 
 
     @BeforeSuite
-    public void setApp(){
+    public void setUp(){
        app.init();
 
     }
