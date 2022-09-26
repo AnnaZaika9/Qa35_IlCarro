@@ -29,6 +29,19 @@ public class HelperBase {
 
         }
     }
+    public void submit() {
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
+        //By.xpath("//button[text()='Y’alla!']") - спец символ может не различать
+
+     //   wd.findElement(By.xpath("//button[text()='Ok']")).click();
+
+    }
+    public boolean isElementPresent(By locator){
+        return wd.findElements(locator).size() > 0 ;
+    }
+    public void click(By locator){
+        wd.findElement(locator).click();
+    }
 
 
 }
