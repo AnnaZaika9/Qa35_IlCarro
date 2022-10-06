@@ -1,0 +1,5 @@
+09:51:33.138  INFO  TestBase - Test start with name: addCarSuccess
+09:51:33.147  INFO  TestBase - User login with data: email nik@gmail.com & password 123589$Nik 
+09:51:47.100  INFO  TestBase - User adds car with data: Car(location=Haifa,Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=11-000-146, price=65, distanceIncluded=800, features=Type of features, about=very nice car)
+09:51:47.110  INFO  TestBase - Assert passed
+09:51:47.221  INFO  TestBase - User returned to home page 

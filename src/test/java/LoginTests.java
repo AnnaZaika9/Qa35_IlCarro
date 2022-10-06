@@ -31,6 +31,7 @@ public class LoginTests extends TestBase{
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+
     }
 
     @Test

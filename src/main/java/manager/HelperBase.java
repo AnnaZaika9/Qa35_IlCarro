@@ -3,6 +3,10 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HelperBase {
 
@@ -30,6 +34,7 @@ public class HelperBase {
         }
     }
     public void submit() {
+        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
         //By.xpath("//button[text()='Y’alla!']") - спец символ может не различать
 
