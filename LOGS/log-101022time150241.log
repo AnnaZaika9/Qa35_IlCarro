@@ -1,0 +1,6 @@
+15:02:46.850  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:02:49.316  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:02:51.108  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:02:51.218  INFO  TestBase - Start Method with name --->LoginSuccess
+15:02:56.248  INFO  TestBase - Login scenario success was used data email:'nik@gmail.com' & password: '123589$Nik'
+15:03:06.363  INFO  manager.HelperBase - Click OK button was needed

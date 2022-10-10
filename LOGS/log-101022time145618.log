@@ -1,0 +1,7 @@
+14:56:24.093  INFO  manager.ApplicationManager - Chrome Driver was opened
+14:56:26.442  INFO  manager.ApplicationManager - All tehromeDriver
+14:56:30.230  INFO  manager.ApplicationManager - The current sts start in  Curl is --->https://ilcarro-1578153671498.web.app/search
+14:56:30.314  INFO  TestBase - Start Method with name --->LoginSuccess
+14:56:35.368  INFO  TestBase - Login scenario success was used data email:'nik@gmail.com' & password: '123589$Nik'
+14:56:36.975  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+14:56:37.097  INFO  manager.HelperBase - Click OK button was needed

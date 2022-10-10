@@ -59,6 +59,7 @@ public class HelperCar extends HelperBase{
 
     public void returnToHomePage() {
         click(By.xpath("//button[text()='Search cars']"));
+        logger.info("We returned to Home Page");
 
     }
 }

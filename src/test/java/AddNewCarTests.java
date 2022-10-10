@@ -12,7 +12,10 @@ public class AddNewCarTests extends TestBase{
     @BeforeMethod
     public void preCondition(){
          if (!app.getHelperUser().isLogged()){
-             app.getHelperUser().login(new User().withEmail("nik@gmail.com").withPassword("123589$Nik"));
+           //  app.getHelperUser().login(new User().withEmail("nik@gmail.com").withPassword("123589$Nik"));
+             User user = new User().withEmail("nik@gmail.com").withPassword("123589$Nik");
+             app.getHelperUser().login(user);
+             logger.info("The login was needed with user : " +user.toString());
          }
 
     }
@@ -21,8 +24,8 @@ public class AddNewCarTests extends TestBase{
         Random random = new Random();
        int i =  random.nextInt(1000)+100;
 
-        logger.info("Test start with name: addCarSuccess");
-        logger.info("User login with data: email nik@gmail.com & password 123589$Nik ");
+      //  logger.info("Test start with name: addCarSuccess");
+      //  logger.info("User login with data: email nik@gmail.com & password 123589$Nik ");
 
         Car car = Car.builder()
                 .location("Haifa,Israel")
@@ -43,6 +46,7 @@ public class AddNewCarTests extends TestBase{
                 .features("Type of features")
                 .about("very nice car")
                 .build();
+        logger.info("The test used car model : " +car.toString());
 
         app.helperCar().openCarForm();
         app.helperCar().fillCarForm(car);
@@ -50,9 +54,9 @@ public class AddNewCarTests extends TestBase{
         app.helperCar().submit();
 
         Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
-
-        logger.info("User adds car with data: " + car.toString());
-        logger.info("Assert passed");
+        // logger.info("User adds car with data: " + car.toString());
+      //  logger.info("Assert passed");
+        logger.info("In assert checked message 'Car added' in dialog  ");
 
 
     }
@@ -60,7 +64,7 @@ public class AddNewCarTests extends TestBase{
     @AfterMethod
     public void posCondition(){
         app.helperCar().returnToHomePage();
-        logger.info("User returned to home page ");
+      //  logger.info("User returned to home page ");
     }
 
 }

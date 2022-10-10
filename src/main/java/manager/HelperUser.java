@@ -41,9 +41,9 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginFormHeader() {
-        WebElement loginTab = wd.findElement(By.cssSelector("a[href ^='/login']"));
-        //".header :nth-child(6)"
-        //"//a[text()=' Log in ']"
+      //  WebElement loginTab = wd.findElement(By.cssSelector("a[href ^='/login']"));
+        WebElement loginTab = wd.findElement(By.cssSelector("a[href ^='/b']"));
+
         loginTab.click();
     }
 
@@ -60,7 +60,8 @@ public class HelperUser extends HelperBase {
     public void fillLoginForm(User user) {
 
         type(By.id("email"), user.getEmail());
-        type(By.id("password"), user.getPassword());
+       type(By.id("password"), user.getPassword());
+       // type(By.id("pas"), user.getPassword());
     }
 
 
@@ -75,9 +76,12 @@ public class HelperUser extends HelperBase {
     public void clickButton() {
         if (isElementPresent(By.cssSelector("div.dialog-container")))
             click(By.xpath("//button[text()='Ok']"));
+        logger.info("Click OK button was needed");
+
     }
 
-    public String getErrorText() {
+    public String getErrorText()
+    {
         return wd.findElement(By.cssSelector("div.error>div")).getText();
     }
 
@@ -96,6 +100,7 @@ public class HelperUser extends HelperBase {
 
     public void openRegistrationFormHeader() {
         click(By.xpath("//a[text()=' Sign up ']"));
+      //  click(By.xpath("//a[text()=' Sig']"));
     }
 
     public void fillRegistrationForm(User user) {
