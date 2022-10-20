@@ -1,3 +1,4 @@
+import manager.DataProviderCar;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -17,6 +18,22 @@ public class AddNewCarTests extends TestBase{
              app.getHelperUser().login(user);
              logger.info("The login was needed with user : " +user.toString());
          }
+
+    }
+    @Test(dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
+    public void addCarSuccessDP(Car car){
+
+
+        logger.info("The test used car model : " +car.toString());
+
+        app.helperCar().openCarForm();
+        app.helperCar().fillCarForm(car);
+        app.helperCar().attachPhoto("C:\\Users\\user\\Desktop\\anna\\TelRun\\Lessons\\GitHub\\Qa35_IlCarro\\src\\test\\resources\\car.jpg");
+        app.helperCar().submit();
+
+        Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
+        logger.info("In assert checked message 'Car added' in dialog  ");
+
 
     }
     @Test
@@ -66,5 +83,6 @@ public class AddNewCarTests extends TestBase{
         app.helperCar().returnToHomePage();
       //  logger.info("User returned to home page ");
     }
+
 
 }

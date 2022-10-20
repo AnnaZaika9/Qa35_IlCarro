@@ -1,0 +1,40 @@
+12:53:46.241  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:53:47.180  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:53:54.178  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:53:54.279  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+12:53:54.285  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:53:54.346  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:53:54.627  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:53:55.249  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:53:55.325  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:53:55.376  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:53:55.586  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 25 ']
+12:53:55.633  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 25 ']
+12:53:55.814  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+12:53:55.867  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+12:53:55.987  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:53:56.042  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:53:56.143  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:53:56.186  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:53:56.390  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.search-results
+12:53:56.497  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.search-results
+12:53:56.498  INFO  manager.ListenerWD - List size is ---->1
+12:53:56.509  INFO  TestBase - In the assertion, it is checked whether there were cars for the current month
+12:53:56.525  INFO  TestBase - Start Method with name --->searchNextMonthSuccess
+12:53:58.538  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:53:58.574  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:53:58.926  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:53:59.025  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:53:59.104  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:54:04.158  INFO  manager.ListenerWD - We have a 'problem'
+12:54:04.158  INFO  manager.ListenerWD - The name of error method findElement
+12:54:04.164  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fffc55620265c5104b4801abfe1ab93, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir948_15141...}, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fffc55620265c5104b4801abfe1ab93
+12:54:04.172  INFO  manager.ListenerWD - Screen with error is 1902___src/test/screenshots/screen1902.png

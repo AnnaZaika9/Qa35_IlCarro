@@ -1,0 +1,35 @@
+12:55:48.675  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:55:50.138  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:55:55.622  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:55:55.708  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+12:55:55.713  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:55:55.766  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:55:56.036  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:55:56.724  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:55:56.805  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:55:56.855  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:55:57.089  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 25 ']
+12:55:57.141  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 25 ']
+12:55:57.467  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+12:55:57.521  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+12:55:57.667  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:55:57.723  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:55:57.867  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:55:57.908  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:55:58.115  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.search-results
+12:55:58.211  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.search-results
+12:55:58.215  INFO  manager.ListenerWD - List size is ---->1
+12:55:58.221  INFO  TestBase - In the assertion, it is checked whether there were cars for the current month
+12:55:58.229  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Search cars']
+12:56:03.374  INFO  manager.ListenerWD - We have a 'problem'
+12:56:03.374  INFO  manager.ListenerWD - The name of error method findElement
+12:56:03.380  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3bc5029d65bd45d6d61ded1a613ba74, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir9348_1141...}, goog:chromeOptions: {debuggerAddress: localhost:49389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49389/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3bc5029d65bd45d6d61ded1a613ba74
+12:56:03.396  INFO  manager.ListenerWD - Screen with error is 1300___src/test/screenshots/screen1300.png

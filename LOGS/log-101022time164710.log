@@ -1,0 +1,31 @@
+16:47:15.696  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:47:16.577  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:47:18.305  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:47:18.388  INFO  TestBase - Start Method with name --->negativeWrongEmail
+16:47:18.391  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+16:47:23.454  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+16:47:23.455  INFO  manager.ListenerWD - List size is ---->0
+16:47:23.472  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nikgmail.com', password='123589$Nik', phone='null'}
+16:47:23.473  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+16:47:23.538  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+16:47:23.702  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+16:47:23.772  INFO  manager.ListenerWD - After find element by ---> By.id: email
+16:47:24.115  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+16:47:24.161  INFO  manager.ListenerWD - After find element by ---> By.id: password
+16:47:24.431  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Ok']
+16:47:29.463  INFO  manager.ListenerWD - We have a 'problem'
+16:47:29.463  INFO  manager.ListenerWD - The name of error method findElement
+16:47:29.468  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f399fc66e268dd923975027a4e3fb44a, findElement {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir14272_928...}, goog:chromeOptions: {debuggerAddress: localhost:54524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54524/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f399fc66e268dd923975027a4e3fb44a
+16:47:29.474  INFO  manager.ListenerWD - Screen with error is 1840___src/test/screenshots/screen1840.png
+16:47:30.167  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+16:47:35.226  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+16:47:35.227  INFO  manager.ListenerWD - List size is ---->0
+16:47:35.228  INFO  manager.HelperBase - Click OK button was needed

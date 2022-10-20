@@ -1,0 +1,35 @@
+15:14:46.734  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:14:48.149  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:14:53.173  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:14:53.239  INFO  TestBase - Start Method with name --->LoginSuccessModels
+15:14:53.243  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:14:58.306  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:14:58.308  INFO  manager.ListenerWD - List size is ---->0
+15:14:58.335  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='nik@gmail.com', password='123589$Nik', phone='null'}
+15:14:58.335  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()='Log in']
+15:14:58.379  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()='Log in']
+15:14:59.082  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+15:14:59.145  INFO  manager.ListenerWD - After find element by ---> By.id: email
+15:14:59.377  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+15:14:59.417  INFO  manager.ListenerWD - After find element by ---> By.id: password
+15:14:59.636  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+15:14:59.704  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+15:14:59.802  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+15:14:59.833  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+15:14:59.887  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.dialog-container
+15:15:04.968  INFO  manager.ListenerWD - We have a 'problem'
+15:15:04.970  INFO  manager.ListenerWD - The name of error method findElement
+15:15:04.983  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.dialog-container"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ebd8f19c8c6f33b30ed58e556bd312a, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir11716_160...}, goog:chromeOptions: {debuggerAddress: localhost:55838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55838/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ebd8f19c8c6f33b30ed58e556bd312a
+15:15:04.999  INFO  manager.ListenerWD - Screen with error is 1055___src/test/screenshots/screen1055.png
+15:15:05.710  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:15:10.780  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:15:10.781  INFO  manager.ListenerWD - List size is ---->0
+15:15:10.781  INFO  manager.HelperBase - Click OK button was needed

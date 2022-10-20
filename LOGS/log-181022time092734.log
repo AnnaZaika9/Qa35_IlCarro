@@ -1,0 +1,37 @@
+09:27:38.700  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:27:39.463  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:27:42.515  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:27:42.586  INFO  TestBase - Start Method with name --->negativeWrongEmail
+09:27:42.588  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+09:27:47.648  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+09:27:47.650  INFO  manager.ListenerWD - List size is ---->0
+09:27:47.664  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nik@gmailcom', password='123589$Nik', phone='null'}
+09:27:47.665  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+09:27:47.726  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+09:27:47.859  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+09:27:47.929  INFO  manager.ListenerWD - After find element by ---> By.id: email
+09:27:48.255  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+09:27:48.341  INFO  manager.ListenerWD - After find element by ---> By.id: password
+09:27:48.561  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+09:27:48.613  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+09:27:48.717  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+09:27:48.754  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+09:27:48.813  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.error>div
+09:27:53.929  INFO  manager.ListenerWD - We have a 'problem'
+09:27:53.930  INFO  manager.ListenerWD - The name of error method findElement
+09:27:53.939  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.error>div"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a8c367830207036791b5a8994975b06, findElement {using=css selector, value=div.error>div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir6688_9078...}, goog:chromeOptions: {debuggerAddress: localhost:62270}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62270/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a8c367830207036791b5a8994975b06
+09:27:53.948  INFO  manager.ListenerWD - Screen with error is 1908___src/test/screenshots/screen1908.png
+09:27:54.623  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //button[text()='Ok']
+09:27:54.665  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //button[text()='Ok']
+09:27:54.665  INFO  manager.ListenerWD - List size is ---->1
+09:27:54.665  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Ok']
+09:27:54.758  INFO  manager.ListenerWD - After find element by ---> By.xpath: //button[text()='Ok']
+09:27:54.809  INFO  manager.HelperBase - Click OK button was needed

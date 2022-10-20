@@ -1,0 +1,53 @@
+08:44:01.230  INFO  manager.ApplicationManager - Chrome Driver was opened
+08:44:01.997  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+08:44:17.946  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+08:44:18.019  INFO  TestBase - Start Method with name --->LoginSuccessModelsDP
+08:44:18.024  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+08:44:23.088  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+08:44:23.089  INFO  manager.ListenerWD - List size is ---->0
+08:44:23.110  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='nik@gmail.com', password='123589$Nik', phone='null'}
+08:44:23.112  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()='Log in']
+08:44:23.177  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()='Log in']
+08:44:23.981  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+08:44:24.060  INFO  manager.ListenerWD - After find element by ---> By.id: email
+08:44:24.346  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+08:44:24.401  INFO  manager.ListenerWD - After find element by ---> By.id: password
+08:44:24.687  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+08:44:24.736  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+08:44:24.832  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+08:44:24.862  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+08:44:24.935  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.dialog-container
+08:44:29.975  INFO  manager.ListenerWD - We have a 'problem'
+08:44:29.975  INFO  manager.ListenerWD - The name of error method findElement
+08:44:29.980  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.dialog-container"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c935f792b7f827ff893aeeabd3984cc, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10072_262...}, goog:chromeOptions: {debuggerAddress: localhost:60449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60449/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c935f792b7f827ff893aeeabd3984cc
+08:44:29.990  INFO  manager.ListenerWD - Screen with error is 1464___src/test/screenshots/screen1464.png
+08:44:30.791  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+08:44:35.804  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+08:44:35.804  INFO  manager.ListenerWD - List size is ---->0
+08:44:35.804  INFO  manager.HelperBase - Click OK button was needed
+08:44:35.806  INFO  TestBase - Start Method with name --->LoginSuccessModelsDP
+08:44:35.808  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+08:44:36.634  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+08:44:36.635  INFO  manager.ListenerWD - List size is ---->1
+08:44:36.636  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Logout ']
+08:44:36.696  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Logout ']
+08:44:37.787  INFO  manager.ListenerWD - We have a 'problem'
+08:44:37.787  INFO  manager.ListenerWD - The name of error method click
+08:44:37.788  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cxd-c25="" class="navigation-link ng-star-inserted" href="/logout?url=undefined">...</a> is not clickable at point (1126, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c935f792b7f827ff893aeeabd3984cc, clickElement {id=1bcb3234-11de-4c9c-9d50-62dd7709accf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10072_262...}, goog:chromeOptions: {debuggerAddress: localhost:60449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60449/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2c935f792b7f827ff893aeeabd3984cc)] -> xpath: //a[text()=' Logout ']]
+Session ID: 2c935f792b7f827ff893aeeabd3984cc
+08:44:37.789  INFO  manager.ListenerWD - Screen with error is 1247___src/test/screenshots/screen1247.png

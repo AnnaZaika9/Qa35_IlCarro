@@ -1,0 +1,26 @@
+09:50:28.025  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:50:28.648  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:50:33.486  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:50:33.557  INFO  TestBase - Start Method with name --->negativeWrongEmail
+09:50:33.560  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+09:50:38.586  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+09:50:38.587  INFO  manager.ListenerWD - List size is ---->0
+09:50:38.605  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nikgmail.com', password='123589$Nik', phone='null'}
+09:50:38.608  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+09:50:38.663  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+09:50:38.813  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+09:50:38.871  INFO  manager.ListenerWD - After find element by ---> By.id: email
+09:50:39.212  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+09:50:39.281  INFO  manager.ListenerWD - After find element by ---> By.id: password
+09:50:39.512  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.error>div
+09:50:39.577  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.error>div
+09:50:39.633  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: button[disabled]
+09:50:39.708  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: button[disabled]
+09:50:39.708  INFO  manager.ListenerWD - List size is ---->1
+09:50:39.709  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+09:50:39.787  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+09:50:39.810  INFO  TestBase - In assert checked error message 'It'snot look like email' under name field 
+09:50:39.815  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //button[text()='Ok']
+09:50:44.856  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //button[text()='Ok']
+09:50:44.856  INFO  manager.ListenerWD - List size is ---->0
+09:50:44.856  INFO  manager.HelperBase - Click OK button was needed

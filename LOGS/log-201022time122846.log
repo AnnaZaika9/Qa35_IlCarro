@@ -1,0 +1,24 @@
+12:28:51.586  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:28:52.485  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:28:58.782  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:28:58.853  INFO  TestBase - Start Method with name --->searchNextMonthSuccess
+12:28:58.859  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:28:58.912  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:28:59.178  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:28:59.758  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:29:04.831  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:29:09.615  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:29:09.734  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:29:09.835  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:29:10.972  INFO  manager.ListenerWD - We have a 'problem'
+12:29:10.972  INFO  manager.ListenerWD - The name of error method click
+12:29:10.978  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-ovm-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-10-20" max="2023-10-20" aria-owns="sat-datepicker-0"> is not clickable at point (301, 331). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd7269233c8e6456a10177e52f7d71d0, clickElement {id=6e219f78-0621-441b-a610-e9f41e3eb6db}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir13912_214...}, goog:chromeOptions: {debuggerAddress: localhost:63987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fd7269233c8e6456a10177e52f7d71d0)] -> id: dates]
+Session ID: fd7269233c8e6456a10177e52f7d71d0
+12:29:10.986  INFO  manager.ListenerWD - Screen with error is 1248___src/test/screenshots/screen1248.png

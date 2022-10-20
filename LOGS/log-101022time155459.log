@@ -1,0 +1,25 @@
+15:55:04.843  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:55:05.906  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:55:09.752  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:55:09.837  INFO  TestBase - Start Method with name --->LoginSuccess
+15:55:09.839  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:55:14.912  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:55:14.914  INFO  manager.ListenerWD - List size is ---->0
+15:55:14.918  INFO  TestBase - Login scenario success was used data email:'nik@gmail.com' & password: '123589$Nik'
+15:55:14.921  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/b']
+15:55:19.988  INFO  manager.ListenerWD - We have a 'problem'
+15:55:19.989  INFO  manager.ListenerWD - The name of error method findElement
+15:55:19.998  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href ^='/b']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6aacf7b00d9172c4b5b6012a07bc6b30, findElement {using=css selector, value=a[href ^='/b']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir17696_173...}, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6aacf7b00d9172c4b5b6012a07bc6b30
+15:55:20.008  INFO  manager.ListenerWD - Screen with error is 1037___src/test/screenshots/screen1037.png
+15:55:20.847  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:55:25.882  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:55:25.883  INFO  manager.ListenerWD - List size is ---->0
+15:55:25.885  INFO  manager.HelperBase - Click OK button was needed

@@ -29,6 +29,34 @@ public class HelperUser extends HelperBase {
 //        List<WebElement> list = wd.findElements(By.cssSelector(".header :nth-child(5)"));
 //        return list.size() > 0;
 //   }
+
+    public void openLoginFormHeader() {
+
+        wd.findElement(By.cssSelector("a[href ^='/login']")).click();
+    }
+    public void openLoginFormFooter() {
+
+        wd.findElement(By.xpath("//a[text()='Log in']")).click();
+    }
+    public void fillLoginForm(String email, String password) {
+
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+    }
+    public void fillLoginForm(User user) {
+
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+      }
+
+    public String getMessage() {
+        //pause(2000);
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+
+        return wd.findElement(By.cssSelector("h2.message")).getText();
+    }
+
     public boolean isLogged() {
 
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
@@ -39,46 +67,18 @@ public class HelperUser extends HelperBase {
         //".header :nth-child(5)")
 
     }
-
-    public void openLoginFormHeader() {
-      //  WebElement loginTab = wd.findElement(By.cssSelector("a[href ^='/login']"));
-        WebElement loginTab = wd.findElement(By.cssSelector("a[href ^='/b']"));
-
-        loginTab.click();
-    }
-
-    public void openLoginFormFooter() {
-        wd.findElement(By.xpath("//a[text()='Log in']")).click();
-    }
-
-    public void fillLoginForm(String email, String password) {
-
-        type(By.id("email"), email);
-        type(By.id("password"), password);
-    }
-
-    public void fillLoginForm(User user) {
-
-        type(By.id("email"), user.getEmail());
-       type(By.id("password"), user.getPassword());
-       // type(By.id("pas"), user.getPassword());
-    }
-
-
-    public String getMessage() {
-        //pause(2000);
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
-
-        return wd.findElement(By.cssSelector("h2.message")).getText();
-    }
-
-    public void clickButton() {
-        if (isElementPresent(By.cssSelector("div.dialog-container")))
+    public void clickOkButton() {
+        if(isElementPresent(By.xpath("//button[text()='Ok']")))
             click(By.xpath("//button[text()='Ok']"));
         logger.info("Click OK button was needed");
-
     }
+
+
+//    public void clickButton() {
+//        if (isElementPresent(By.cssSelector("div.dialog-container")))
+//            click(By.xpath("//button[text()='Ok']"));
+//        logger.info("Click OK button was needed");
+//    }
 
     public String getErrorText()
     {
@@ -100,8 +100,7 @@ public class HelperUser extends HelperBase {
 
     public void openRegistrationFormHeader() {
         click(By.xpath("//a[text()=' Sign up ']"));
-      //  click(By.xpath("//a[text()=' Sig']"));
-    }
+         }
 
     public void fillRegistrationForm(User user) {
         type(By.id("name"), user.getName());
@@ -135,6 +134,6 @@ public class HelperUser extends HelperBase {
         openLoginFormHeader();
         fillLoginForm(user);
         submit();
-        clickButton();
+        clickOkButton();
     }
 }

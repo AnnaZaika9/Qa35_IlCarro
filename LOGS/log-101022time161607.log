@@ -1,0 +1,20 @@
+16:16:14.311  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:16:15.033  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:16:16.897  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:16:16.974  INFO  TestBase - Start Method with name --->negativeWrongEmail
+16:16:16.989  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+16:16:22.028  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+16:16:22.029  INFO  manager.ListenerWD - List size is ---->0
+16:16:22.047  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nikgmail.com', password='123589$Nik', phone='null'}
+16:16:22.048  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+16:16:22.097  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+16:16:22.233  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+16:16:22.319  INFO  manager.ListenerWD - After find element by ---> By.id: email
+16:16:22.657  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+16:16:22.703  INFO  manager.ListenerWD - After find element by ---> By.id: password
+16:16:22.941  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+16:16:23.006  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+16:16:33.456  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+16:16:38.501  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+16:16:38.502  INFO  manager.ListenerWD - List size is ---->0
+16:16:38.502  INFO  manager.HelperBase - Click OK button was needed

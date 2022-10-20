@@ -1,0 +1,23 @@
+12:38:56.910  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:38:58.020  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:39:03.424  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:39:03.493  INFO  TestBase - Start Method with name --->searchNextMonthSuccess
+12:39:03.501  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:39:03.558  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:39:03.969  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:39:04.615  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:39:04.712  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:39:04.763  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:39:04.955  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:39:05.000  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:39:05.149  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 25 ']
+12:39:05.212  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 25 ']
+12:39:05.351  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+12:39:05.440  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+12:39:06.053  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:39:06.081  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:39:06.153  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:39:06.179  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:39:06.355  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.search-results
+12:39:06.431  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.search-results
+12:39:06.432  INFO  manager.ListenerWD - List size is ---->1

@@ -60,6 +60,10 @@ public class HelperCar extends HelperBase{
     public void returnToHomePage() {
         click(By.xpath("//button[text()='Search cars']"));
         logger.info("We returned to Home Page");
+    }
 
+    public void returnToSearchPage() {
+        click(By.xpath("//a[text()=' Search ']"));
+        logger.info("We returned to Search Page");
     }
 }

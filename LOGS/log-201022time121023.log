@@ -1,0 +1,21 @@
+12:10:29.637  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:10:30.747  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:10:39.877  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:10:39.957  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+12:10:39.962  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:10:40.018  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:10:40.288  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:10:40.848  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:10:40.950  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:10:41.011  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:10:41.239  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 25 ']
+12:10:41.310  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 25 ']
+12:10:41.508  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+12:10:41.583  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+12:10:41.725  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:10:41.778  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:10:41.885  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:10:41.920  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:10:42.142  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.search-results
+12:10:42.215  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.search-results
+12:10:42.216  INFO  manager.ListenerWD - List size is ---->1

@@ -1,0 +1,36 @@
+15:20:29.888  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:20:32.354  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:20:34.313  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:20:34.458  INFO  TestBase - Start Method with name --->addCarSuccess
+15:20:41.357  INFO  manager.HelperBase - Click OK button was needed
+15:20:41.373  INFO  TestBase - The login was needed with user : User{name='null', lastname='null', email='nik@gmail.com', password='123589$Nik', phone='null'}
+15:20:41.448  INFO  TestBase - The test used car model : Car(location=Haifa,Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=11-000-707, price=65, distanceIncluded=800, features=Type of features, about=very nice car)
+15:20:54.796  INFO  TestBase - In assert checked message 'Car added' in dialog  
+15:20:54.881  INFO  manager.HelperBase - We returned to Home Page
+15:20:54.886  INFO  TestBase - Start Method with name --->LoginSuccess
+15:20:55.185  INFO  TestBase - The logout was needed 
+15:20:55.186  INFO  TestBase - Login scenario success was used data email:'nik@gmail.com' & password: '123589$Nik'
+15:20:56.519  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+15:20:56.618  INFO  manager.HelperBase - Click OK button was needed
+15:20:56.620  INFO  TestBase - Start Method with name --->LoginSuccessModels
+15:20:56.784  INFO  TestBase - The logout was needed 
+15:20:56.786  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='nik@gmail.com', password='123589$Nik', phone='null'}
+15:20:58.402  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+15:20:58.496  INFO  manager.HelperBase - Click OK button was needed
+15:20:58.498  INFO  TestBase - Start Method with name --->negativeWrongEmail
+15:20:58.707  INFO  TestBase - The logout was needed 
+15:20:58.708  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nikgmail.com', password='123589$Nik', phone='null'}
+15:21:09.457  INFO  manager.HelperBase - Click OK button was needed
+15:21:09.460  INFO  TestBase - Start Method with name --->negativeWrongPassword
+15:21:14.506  INFO  TestBase - Login negative scenario with wrong password was used dataUser{name='null', lastname='null', email='nik@gmail.com', password='Wwow12345$', phone='null'}
+15:21:15.772  INFO  TestBase - In assert checked message 'Authorization error' & 'Wrong email or password' in dialog  
+15:21:15.893  INFO  manager.HelperBase - Click OK button was needed
+15:21:15.896  INFO  TestBase - Start Method with name --->registrationSuccess
+15:21:20.918  INFO  TestBase - The logout was needed 
+15:21:20.922  INFO  TestBase - Login scenario success was used dataUser{name='Nikita', lastname='Snow', email='nik1280@ukr.net', password='Ww12345$', phone='null'}
+15:21:22.731  INFO  TestBase - In assert checked message 'Registered' in dialog  
+15:21:22.819  INFO  manager.HelperBase - Click OK button was needed
+15:21:22.824  INFO  TestBase - Start Method with name --->registrationWrongPassword
+15:21:23.008  INFO  TestBase - The logout was needed 
+15:21:23.010  INFO  TestBase - Login negative scenario with wrong password was used dataUser{name='Mikita', lastname='Snow', email='nik@ukr.net', password='Mikita', phone='null'}
+15:21:34.204  INFO  manager.HelperBase - Click OK button was needed

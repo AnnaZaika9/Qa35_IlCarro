@@ -1,0 +1,95 @@
+15:11:42.846  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:11:44.274  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:11:47.112  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/
+15:11:47.229  INFO  TestBase - Start Method with name --->registrationSuccessDP
+15:11:47.238  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:11:52.307  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:11:52.307  INFO  manager.ListenerWD - List size is ---->0
+15:11:52.309  INFO  TestBase - The logout was needed 
+15:11:52.334  INFO  TestBase - Registration scenario success was used dataUser{name='Zoa', lastname='Dow', email='zoanw@gmail.com', password='Zz12345$', phone='null'}
+15:11:52.338  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Sign up ']
+15:11:57.461  INFO  manager.ListenerWD - We have a 'problem'
+15:11:57.462  INFO  manager.ListenerWD - The name of error method findElement
+15:11:57.471  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Sign up ']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22066fdc08122bfebc4fafa302302b62, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir8596_1851...}, goog:chromeOptions: {debuggerAddress: localhost:55728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55728/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22066fdc08122bfebc4fafa302302b62
+15:11:57.495  INFO  manager.ListenerWD - Screen with error is 1507___src/test/screenshots/screen1507.png
+15:11:57.712  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:12:02.769  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:12:02.770  INFO  manager.ListenerWD - List size is ---->0
+15:12:02.770  INFO  manager.HelperBase - Click OK button was needed
+15:12:02.775  INFO  TestBase - Start Method with name --->registrationSuccessDP
+15:12:02.778  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:07.811  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:07.813  INFO  manager.ListenerWD - List size is ---->0
+15:12:07.814  INFO  TestBase - The logout was needed 
+15:12:07.827  INFO  TestBase - Registration scenario success was used dataUser{name='Noa', lastname='Snow', email='noanw@ukr.net', password='Nn12345$', phone='null'}
+15:12:07.829  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Sign up ']
+15:12:12.895  INFO  manager.ListenerWD - We have a 'problem'
+15:12:12.897  INFO  manager.ListenerWD - The name of error method findElement
+15:12:12.900  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Sign up ']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22066fdc08122bfebc4fafa302302b62, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir8596_1851...}, goog:chromeOptions: {debuggerAddress: localhost:55728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55728/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22066fdc08122bfebc4fafa302302b62
+15:12:12.907  INFO  manager.ListenerWD - Screen with error is 1370___src/test/screenshots/screen1370.png
+15:12:13.038  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:12:18.115  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:12:18.117  INFO  manager.ListenerWD - List size is ---->0
+15:12:18.120  INFO  manager.HelperBase - Click OK button was needed
+15:12:18.132  INFO  TestBase - Start Method with name --->registrationSuccessDP
+15:12:18.137  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:23.190  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:23.191  INFO  manager.ListenerWD - List size is ---->0
+15:12:23.193  INFO  TestBase - The logout was needed 
+15:12:23.199  INFO  TestBase - Registration scenario success was used dataUser{name='Katya', lastname='Fox', email='katyanw@mail.ru', password='Kk12345$', phone='null'}
+15:12:23.200  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Sign up ']
+15:12:28.232  INFO  manager.ListenerWD - We have a 'problem'
+15:12:28.233  INFO  manager.ListenerWD - The name of error method findElement
+15:12:28.235  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Sign up ']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22066fdc08122bfebc4fafa302302b62, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir8596_1851...}, goog:chromeOptions: {debuggerAddress: localhost:55728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55728/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22066fdc08122bfebc4fafa302302b62
+15:12:28.237  INFO  manager.ListenerWD - Screen with error is 1437___src/test/screenshots/screen1437.png
+15:12:28.372  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:12:33.412  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:12:33.413  INFO  manager.ListenerWD - List size is ---->0
+15:12:33.413  INFO  manager.HelperBase - Click OK button was needed
+15:12:33.418  INFO  TestBase - Start Method with name --->registrationSuccessDP
+15:12:33.422  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:38.492  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+15:12:38.494  INFO  manager.ListenerWD - List size is ---->0
+15:12:38.497  INFO  TestBase - The logout was needed 
+15:12:38.501  INFO  TestBase - Registration scenario success was used dataUser{name='John', lastname='Wicc', email='johnnw@gmail.com', password='Jj12345$', phone='null'}
+15:12:38.501  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Sign up ']
+15:12:43.570  INFO  manager.ListenerWD - We have a 'problem'
+15:12:43.571  INFO  manager.ListenerWD - The name of error method findElement
+15:12:43.572  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Sign up ']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22066fdc08122bfebc4fafa302302b62, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir8596_1851...}, goog:chromeOptions: {debuggerAddress: localhost:55728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55728/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22066fdc08122bfebc4fafa302302b62
+15:12:43.574  INFO  manager.ListenerWD - Screen with error is 1891___src/test/screenshots/screen1891.png
+15:12:43.746  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+15:12:48.767  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+15:12:48.767  INFO  manager.ListenerWD - List size is ---->0
+15:12:48.767  INFO  manager.HelperBase - Click OK button was needed

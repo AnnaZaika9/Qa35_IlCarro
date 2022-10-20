@@ -1,0 +1,3 @@
+13:58:05.531  INFO  manager.ApplicationManager - Chrome Driver was opened
+13:58:06.647  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+13:58:09.178  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search

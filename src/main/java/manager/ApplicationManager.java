@@ -17,6 +17,7 @@ public class ApplicationManager {
 
     HelperUser helperUser;
     HelperCar helperCar;
+    HelperSearch helperSearch;
 
     public void init() {
 
@@ -26,8 +27,6 @@ public class ApplicationManager {
         logger.info("Chrome Driver was opened");
         wd  = new EventFiringDecorator<>(listener).decorate(wd);
 
-
-        wd = new ChromeDriver();
         logger.info("All tests start in  ChromeDriver");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -35,11 +34,17 @@ public class ApplicationManager {
         logger.info("The current url is --->" +wd.getCurrentUrl());
         helperUser = new HelperUser(wd);
         helperCar = new HelperCar(wd);
+        helperSearch = new HelperSearch(wd);
+
 
     }
 
     public void stop() {
         wd.quit();
+    }
+
+    public HelperSearch getSearch() {
+        return helperSearch;
     }
 
     public HelperUser getHelperUser() {

@@ -1,0 +1,37 @@
+09:05:04.476  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:05:05.531  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:05:09.842  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:05:09.903  INFO  TestBase - Start Method with name --->negativeWrongEmail
+09:05:09.906  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+09:05:14.991  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+09:05:14.993  INFO  manager.ListenerWD - List size is ---->0
+09:05:15.018  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='nik@gmailcom', password='123589$Nik', phone='null'}
+09:05:15.021  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+09:05:15.070  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+09:05:15.182  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+09:05:15.236  INFO  manager.ListenerWD - After find element by ---> By.id: email
+09:05:15.511  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+09:05:15.549  INFO  manager.ListenerWD - After find element by ---> By.id: password
+09:05:15.769  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+09:05:15.834  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+09:05:15.946  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+09:05:15.980  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+09:05:16.047  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.error>div
+09:05:21.127  INFO  manager.ListenerWD - We have a 'problem'
+09:05:21.127  INFO  manager.ListenerWD - The name of error method findElement
+09:05:21.132  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.error>div"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85e6da34fff5beab36f08743cfff0051, findElement {using=css selector, value=div.error>div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir15416_657...}, goog:chromeOptions: {debuggerAddress: localhost:61215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61215/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85e6da34fff5beab36f08743cfff0051
+09:05:21.139  INFO  manager.ListenerWD - Screen with error is 1021___src/test/screenshots/screen1021.png
+09:05:21.726  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.dialog-container
+09:05:21.762  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.dialog-container
+09:05:21.762  INFO  manager.ListenerWD - List size is ---->1
+09:05:21.762  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Ok']
+09:05:21.814  INFO  manager.ListenerWD - After find element by ---> By.xpath: //button[text()='Ok']
+09:05:21.861  INFO  manager.HelperBase - Click OK button was needed

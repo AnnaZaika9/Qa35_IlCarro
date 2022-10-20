@@ -1,0 +1,31 @@
+09:55:50.007  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:55:50.663  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:55:55.241  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:55:55.298  INFO  TestBase - Start Method with name --->registrationWrongPassword
+09:55:55.300  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+09:56:00.367  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+09:56:00.367  INFO  manager.ListenerWD - List size is ---->0
+09:56:00.369  INFO  TestBase - The logout was needed 
+09:56:00.383  INFO  TestBase - Registration negative scenario with wrong password was used dataUser{name='Mikita', lastname='Snow', email='nik@ukr.net', password='Mikita', phone='null'}
+09:56:00.384  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Sign up ']
+09:56:00.438  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Sign up ']
+09:56:00.553  INFO  manager.ListenerWD - Before find element by ---> By.id: name
+09:56:00.638  INFO  manager.ListenerWD - After find element by ---> By.id: name
+09:56:00.876  INFO  manager.ListenerWD - Before find element by ---> By.id: lastName
+09:56:00.923  INFO  manager.ListenerWD - After find element by ---> By.id: lastName
+09:56:01.127  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+09:56:01.177  INFO  manager.ListenerWD - After find element by ---> By.id: email
+09:56:01.420  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+09:56:01.459  INFO  manager.ListenerWD - After find element by ---> By.id: password
+09:56:01.674  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: label[for='terms-of-use']
+09:56:01.723  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: label[for='terms-of-use']
+09:56:01.917  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: button[disabled]
+09:56:01.952  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: button[disabled]
+09:56:01.953  INFO  manager.ListenerWD - List size is ---->1
+09:56:01.954  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+09:56:01.989  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+09:56:02.019  INFO  TestBase - The Y'alla button was not active
+09:56:02.025  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //button[text()='Ok']
+09:56:07.080  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //button[text()='Ok']
+09:56:07.081  INFO  manager.ListenerWD - List size is ---->0
+09:56:07.083  INFO  manager.HelperBase - Click OK button was needed

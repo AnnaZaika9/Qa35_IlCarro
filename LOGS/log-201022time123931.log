@@ -1,0 +1,39 @@
+12:39:36.419  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:39:37.374  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:39:44.402  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:39:44.477  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+12:39:44.487  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:39:44.581  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:39:44.875  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:39:45.464  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:39:45.537  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:39:45.592  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:39:45.743  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 25 ']
+12:39:45.805  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 25 ']
+12:39:45.941  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+12:39:45.989  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+12:39:46.074  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:39:46.114  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:39:46.191  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+12:39:46.219  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+12:39:46.365  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: div.search-results
+12:39:46.460  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: div.search-results
+12:39:46.461  INFO  manager.ListenerWD - List size is ---->1
+12:39:46.498  INFO  TestBase - Start Method with name --->searchNextMonthSuccess
+12:39:46.508  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:39:46.600  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:39:46.968  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:39:47.127  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:39:47.233  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:39:52.274  INFO  manager.ListenerWD - We have a 'problem'
+12:39:52.274  INFO  manager.ListenerWD - The name of error method findElement
+12:39:52.280  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a22d76d78d2d306bffd12c4016a1f464, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir15056_368...}, goog:chromeOptions: {debuggerAddress: localhost:64681}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64681/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a22d76d78d2d306bffd12c4016a1f464
+12:39:52.287  INFO  manager.ListenerWD - Screen with error is 1811___src/test/screenshots/screen1811.png

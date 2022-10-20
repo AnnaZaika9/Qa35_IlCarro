@@ -1,0 +1,26 @@
+12:30:26.811  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:30:28.241  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:30:42.658  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+12:30:42.750  INFO  TestBase - Start Method with name --->searchNextMonthSuccess
+12:30:42.756  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+12:30:42.812  INFO  manager.ListenerWD - After find element by ---> By.id: city
+12:30:43.145  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+12:30:43.804  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+12:30:43.884  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:30:43.931  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:30:44.169  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:30:44.328  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [aria-label = 'Next month']
+12:30:44.464  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+12:30:44.520  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+12:30:45.603  INFO  manager.ListenerWD - We have a 'problem'
+12:30:45.604  INFO  manager.ListenerWD - The name of error method click
+12:30:45.610  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-ago-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-10-20" max="2023-10-20" aria-owns="sat-datepicker-0"> is not clickable at point (301, 331). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ad6053bf121e8f249e640aaf6d80102, clickElement {id=37d3bcd0-73a1-4a6c-ac4d-8604eb948cfa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir21244_121...}, goog:chromeOptions: {debuggerAddress: localhost:64117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64117/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5ad6053bf121e8f249e640aaf6d80102)] -> id: dates]
+Session ID: 5ad6053bf121e8f249e640aaf6d80102
+12:30:45.617  INFO  manager.ListenerWD - Screen with error is 1111___src/test/screenshots/screen1111.png
