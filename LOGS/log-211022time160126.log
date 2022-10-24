@@ -1,0 +1,22 @@
+16:01:31.968  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:01:33.282  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:01:36.143  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:01:36.283  INFO  TestBase - Start Method with name --->searchInPast
+16:01:36.295  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+16:01:36.340  INFO  manager.ListenerWD - After find element by ---> By.id: city
+16:01:36.610  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+16:01:41.690  INFO  manager.ListenerWD - We have a 'problem'
+16:01:41.691  INFO  manager.ListenerWD - The name of error method findElement
+16:01:41.696  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.pac-item"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a44cee400ccda229f52fabda4660999a, findElement {using=css selector, value=div.pac-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir9612_5057...}, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a44cee400ccda229f52fabda4660999a
+16:01:41.704  INFO  manager.ListenerWD - Screen with error is 1953___src/test/screenshots/screen1953.png
+16:01:42.626  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+16:01:42.673  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+16:01:42.825  INFO  manager.HelperBase - We returned to Search Page

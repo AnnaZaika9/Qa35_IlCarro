@@ -1,0 +1,37 @@
+14:56:36.260  INFO  manager.ApplicationManager - Chrome Driver was opened
+14:56:37.694  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+14:56:41.833  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+14:56:42.040  INFO  TestBase - Start Method with name --->searchInPast
+14:56:42.057  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+14:56:42.139  INFO  manager.ListenerWD - After find element by ---> By.id: city
+14:56:42.542  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+14:56:42.940  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+14:56:43.081  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+14:56:43.152  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+14:56:43.426  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: 
+14:56:43.492  INFO  manager.ListenerWD - We have a 'problem'
+14:56:43.497  INFO  manager.ListenerWD - The name of error method findElement
+14:56:43.504  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0473a42ed72c2ee1786adb7a9ad9cf78, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir3944_2718...}, goog:chromeOptions: {debuggerAddress: localhost:64012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64012/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0473a42ed72c2ee1786adb7a9ad9cf78
+14:56:43.517  INFO  manager.ListenerWD - Screen with error is 1942___src/test/screenshots/screen1942.png
+14:56:44.645  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+14:56:44.692  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+14:56:45.793  INFO  manager.ListenerWD - We have a 'problem'
+14:56:45.794  INFO  manager.ListenerWD - The name of error method click
+14:56:45.794  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-mcc-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0473a42ed72c2ee1786adb7a9ad9cf78, clickElement {id=9ac93063-f206-4c8f-af91-9c772e22fc80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir3944_2718...}, goog:chromeOptions: {debuggerAddress: localhost:64012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64012/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0473a42ed72c2ee1786adb7a9ad9cf78)] -> xpath: //a[text()=' Search ']]
+Session ID: 0473a42ed72c2ee1786adb7a9ad9cf78
+14:56:45.796  INFO  manager.ListenerWD - Screen with error is 1658___src/test/screenshots/screen1658.png

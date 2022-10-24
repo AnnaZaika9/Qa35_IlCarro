@@ -2,6 +2,10 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class HelperSearch extends HelperBase {
     public HelperSearch(WebDriver wd) {
@@ -48,7 +52,7 @@ public class HelperSearch extends HelperBase {
         String[] to = dataTo.split("/");
 
         String locator2 = String.format("//div[text()=' %s ']", to[1]);
-
+pause(2000);
         click(By.xpath(locator2));
 
     }
@@ -56,14 +60,15 @@ public class HelperSearch extends HelperBase {
     private void typeCity(String city) {
         type(By.id("city"), city);
         click(By.cssSelector("div.pac-item"));
-        //pause(500);
+
+
     }
 
     public boolean isListOfCarsAppeared() {
-
-        return isElementPresent(By.cssSelector("div.search-results"));
-
+        return isElementPresent(By.cssSelector("a.car-container"));
+        //div.search-results
     }
+
 
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
 
@@ -82,4 +87,81 @@ public class HelperSearch extends HelperBase {
     }
 
 
+    public void selectAnyPeriod(String city, String dataFrom, String dataTo) { //"11/10/2022"    "6/10/2023"
+        typeCity(city);
+        click(By.id("dates"));
+        // String nowData = "10/20/2022";
+        LocalDate now = LocalDate.now();
+        LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dataTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+
+        logger.info("year:   " + now.getYear());
+        logger.info("day of month:   " + now.getDayOfMonth());
+        logger.info("month value:   " + now.getMonthValue());
+
+//        String[]from = dataFrom.split("/"); // from[2] = "2022"
+//        int diffYear = Integer.parseInt(from[2]) - now.getYear();
+
+        int diffYear;
+        int diffMonth;
+        diffYear = from.getYear() - now.getYear();
+        if (diffYear == 0) {
+            diffMonth = from.getMonthValue() - now.getMonthValue(); //11-10 = 1
+        } else {
+            diffMonth = 12 - now.getMonthValue() + from.getMonthValue(); //12-10+3 = 5
+        }
+        clickNextMonth(diffMonth);
+        String locator = String.format("//div[text()=' %s ']", from.getDayOfMonth());
+        click(By.xpath(locator));
+
+        //**************************************
+
+        diffYear = to.getYear()-from.getYear();
+        if(diffYear == 0){
+            diffMonth = to.getMonthValue()-from.getMonthValue();
+        }else {
+            diffMonth= 12-from.getMonthValue()+to.getMonthValue();
+        }
+        clickNextMonth(diffMonth);
+        locator = String.format("//div[text()=' %s ']", to.getDayOfMonth());
+        click(By.xpath(locator));
+
+
+    }
+
+    private void clickNextMonth(int count) {
+        for (int i = 0; i < count; i++) {
+            click(By.cssSelector("button[aria-label='Next month']"));
+        }
+    }
+
+    public void typePeriodInPast(String city, String dataFrom, String dataTo) {
+        //10/5/2022 - 10/10/2022
+        typeCity(city);
+        type(By.id("dates"),dataFrom+ " - " +dataTo);
+
+
+
+
+
+    }
+
+    public void clearFields() {
+       // wd.findElement(By.id("city")).clear();
+        WebElement city = wd.findElement(By.id("city"));
+        city.click();
+        city.clear();
+
+       // wd.findElement(By.id("dates")).clear();
+        WebElement dates = wd.findElement(By.id("dates"));
+        dates.click();
+        dates.clear();
+
+    }
+
+//    public boolean isDataCorrect(String from, String to) {
+//        WebElement element = wd.findElement(By.cssSelector(""));
+//        System.out.println(element.getText());
+//        return true;
+//    }
 }

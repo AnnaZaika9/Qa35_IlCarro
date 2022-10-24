@@ -1,0 +1,38 @@
+16:18:06.299  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:18:07.704  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:18:10.527  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:18:10.653  INFO  TestBase - Start Method with name --->searchInPast
+16:18:10.659  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+16:18:10.721  INFO  manager.ListenerWD - After find element by ---> By.id: city
+16:18:11.032  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+16:18:11.632  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+16:18:11.793  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+16:18:11.842  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+16:18:12.463  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .search-card
+16:18:12.526  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .search-card
+16:18:13.706  INFO  manager.ListenerWD - We have a 'problem'
+16:18:13.707  INFO  manager.ListenerWD - The name of error method click
+16:18:13.712  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-jpy-c72="" class="search-card">...</div> is not clickable at point (759, 416). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [978920b7de6265cb02d5252e065f61c1, clickElement {id=29a015d3-4fcb-4057-a5ed-73dcb0a65c3d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir22876_118...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53153/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (978920b7de6265cb02d5252e065f61c1)] -> css selector: .search-card]
+Session ID: 978920b7de6265cb02d5252e065f61c1
+16:18:13.723  INFO  manager.ListenerWD - Screen with error is 1691___src/test/screenshots/screen1691.png
+16:18:13.747  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+16:18:13.854  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+16:18:14.963  INFO  manager.ListenerWD - We have a 'problem'
+16:18:14.963  INFO  manager.ListenerWD - The name of error method click
+16:18:14.964  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-jpy-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [978920b7de6265cb02d5252e065f61c1, clickElement {id=07bdd37c-cae1-42e1-a3bd-e85cb7ef92db}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir22876_118...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53153/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (978920b7de6265cb02d5252e065f61c1)] -> xpath: //a[text()=' Search ']]
+Session ID: 978920b7de6265cb02d5252e065f61c1
+16:18:14.965  INFO  manager.ListenerWD - Screen with error is 1755___src/test/screenshots/screen1755.png

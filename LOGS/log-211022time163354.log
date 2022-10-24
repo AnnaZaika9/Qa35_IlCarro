@@ -1,0 +1,24 @@
+16:33:59.405  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:34:00.862  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:34:03.719  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:34:03.822  INFO  TestBase - Start Method with name --->searchInPast
+16:34:03.828  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+16:34:03.889  INFO  manager.ListenerWD - After find element by ---> By.id: city
+16:34:04.219  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+16:34:04.777  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+16:34:04.854  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+16:34:04.901  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+16:34:07.429  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .search-card
+16:34:07.460  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .search-card
+16:34:08.573  INFO  manager.ListenerWD - We have a 'problem'
+16:34:08.574  INFO  manager.ListenerWD - The name of error method click
+16:34:08.579  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-xua-c72="" class="search-card">...</div> is not clickable at point (759, 416). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fae4c96d62e134fe6c514803061a104, clickElement {id=8d1b35e6-7a05-495d-85fa-1c63ad918666}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir9668_1782...}, goog:chromeOptions: {debuggerAddress: localhost:54423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54423/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5fae4c96d62e134fe6c514803061a104)] -> css selector: .search-card]
+Session ID: 5fae4c96d62e134fe6c514803061a104
+16:34:08.585  INFO  manager.ListenerWD - Screen with error is 1868___src/test/screenshots/screen1868.png

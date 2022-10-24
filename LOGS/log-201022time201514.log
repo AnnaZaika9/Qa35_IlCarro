@@ -1,0 +1,33 @@
+20:15:20.828  INFO  manager.ApplicationManager - Chrome Driver was opened
+20:15:22.427  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+20:15:24.997  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+20:15:25.252  INFO  TestBase - Start Method with name --->searchAnyPeriod
+20:15:25.275  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+20:15:25.394  INFO  manager.ListenerWD - After find element by ---> By.id: city
+20:15:25.715  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+20:15:26.198  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+20:15:26.308  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+20:15:26.384  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+20:15:26.652  INFO  manager.HelperBase - year:   2022
+20:15:26.654  INFO  manager.HelperBase - day of month:   20
+20:15:26.656  INFO  manager.HelperBase - month value:   10
+20:15:26.656  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:26.779  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:26.975  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:27.044  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:27.181  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 20 ']
+20:15:27.246  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 20 ']
+20:15:27.427  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:27.512  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+20:15:27.663  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 10 ']
+20:15:27.726  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 10 ']
+20:15:27.912  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+20:15:27.975  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+20:15:28.115  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+20:15:28.160  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+20:15:28.471  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: a.car-container
+20:15:29.661  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: a.car-container
+20:15:29.662  INFO  manager.ListenerWD - List size is ---->10
+20:15:29.677  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+20:15:29.715  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+20:15:29.870  INFO  manager.HelperBase - We returned to Search Page

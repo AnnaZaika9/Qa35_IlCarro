@@ -1,0 +1,19 @@
+11:26:41.006  INFO  manager.ApplicationManager - Chrome Driver was opened
+11:26:42.529  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:26:45.545  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:26:45.647  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+11:26:45.652  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:26:45.738  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:26:46.073  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:26:51.137  INFO  manager.ListenerWD - We have a 'problem'
+11:26:51.138  INFO  manager.ListenerWD - The name of error method findElement
+11:26:51.143  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.pac-item"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37dd986dc60921b21411aab4213f7077, findElement {using=css selector, value=div.pac-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir24540_355...}, goog:chromeOptions: {debuggerAddress: localhost:51034}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51034/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37dd986dc60921b21411aab4213f7077
+11:26:51.148  INFO  manager.ListenerWD - Screen with error is 1989___src/test/screenshots/screen1989.png

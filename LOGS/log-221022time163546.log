@@ -1,0 +1,19 @@
+16:35:52.517  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:35:53.744  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:35:56.213  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:35:56.310  INFO  TestBase - Start Method with name --->searchInPast
+16:35:56.316  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+16:35:56.434  INFO  manager.ListenerWD - After find element by ---> By.id: city
+16:35:56.713  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+16:35:57.153  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+16:35:57.247  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+16:35:57.299  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+16:35:57.876  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+16:35:57.939  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+16:35:57.998  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: button[disabled]
+16:35:58.080  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: button[disabled]
+16:35:58.081  INFO  manager.ListenerWD - List size is ---->2
+16:35:58.081  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+16:35:58.117  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+16:35:58.140  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .ng-star-inserted:first-child
+16:35:58.179  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .ng-star-inserted:first-child

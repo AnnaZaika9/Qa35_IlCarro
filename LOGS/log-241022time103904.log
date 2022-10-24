@@ -1,0 +1,33 @@
+10:39:09.987  INFO  manager.ApplicationManager - Chrome Driver was opened
+10:39:11.093  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+10:39:13.256  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+10:39:13.378  INFO  TestBase - Start Method with name --->searchInPast
+10:39:13.390  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+10:39:13.466  INFO  manager.ListenerWD - After find element by ---> By.id: city
+10:39:13.740  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+10:39:14.124  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+10:39:14.209  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+10:39:14.255  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+10:39:14.863  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+10:39:14.934  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+10:39:14.969  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: button[disabled]
+10:39:15.076  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: button[disabled]
+10:39:15.076  INFO  manager.ListenerWD - List size is ---->2
+10:39:15.077  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+10:39:15.113  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+10:39:15.132  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .ng-star-inserted:first-child
+10:39:15.179  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .ng-star-inserted:first-child
+10:39:15.217  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .navigation-link[href='/search']
+10:39:15.257  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .navigation-link[href='/search']
+10:39:16.377  INFO  manager.ListenerWD - We have a 'problem'
+10:39:16.378  INFO  manager.ListenerWD - The name of error method click
+10:39:16.383  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-vwl-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f40261073a173e1009c2d7bc1977eff, clickElement {id=2eb77011-a642-48d0-8640-40dc4a56cd3a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir23356_176...}, goog:chromeOptions: {debuggerAddress: localhost:63999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63999/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2f40261073a173e1009c2d7bc1977eff)] -> css selector: .navigation-link[href='/search']]
+Session ID: 2f40261073a173e1009c2d7bc1977eff
+10:39:16.390  INFO  manager.ListenerWD - Screen with error is 1992___src/test/screenshots/screen1992.png

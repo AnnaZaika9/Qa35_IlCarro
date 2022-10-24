@@ -1,0 +1,29 @@
+15:23:54.840  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:23:55.817  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:23:58.310  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:23:58.489  INFO  TestBase - Start Method with name --->searchInPast
+15:23:58.506  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+15:23:58.580  INFO  manager.ListenerWD - After find element by ---> By.id: city
+15:23:59.259  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+15:23:59.846  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+15:23:59.951  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+15:24:00.046  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+15:24:01.207  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: button[disabled]
+15:24:01.289  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: button[disabled]
+15:24:01.290  INFO  manager.ListenerWD - List size is ---->2
+15:24:01.291  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+15:24:01.336  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+15:24:01.362  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+15:24:01.405  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+15:24:02.493  INFO  manager.ListenerWD - We have a 'problem'
+15:24:02.494  INFO  manager.ListenerWD - The name of error method click
+15:24:02.504  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-kgg-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d48ea416a9be938edb77b76e0e978071, clickElement {id=48ddcfeb-3fae-4c76-83db-37d525b4e975}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir14832_142...}, goog:chromeOptions: {debuggerAddress: localhost:49486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49486/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d48ea416a9be938edb77b76e0e978071)] -> xpath: //a[text()=' Search ']]
+Session ID: d48ea416a9be938edb77b76e0e978071
+15:24:02.519  INFO  manager.ListenerWD - Screen with error is 1156___src/test/screenshots/screen1156.png

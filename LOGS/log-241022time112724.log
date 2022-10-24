@@ -1,0 +1,43 @@
+11:27:29.800  INFO  manager.ApplicationManager - Chrome Driver was opened
+11:27:31.480  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:27:33.737  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:27:33.910  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+11:27:33.922  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:27:33.993  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:27:34.342  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:27:34.820  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+11:27:34.948  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+11:27:35.020  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+11:27:35.262  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 28 ']
+11:27:35.336  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 28 ']
+11:27:37.505  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+11:27:37.545  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+11:27:38.153  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+11:27:38.186  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+11:27:38.209  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:27:38.247  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:27:38.322  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:27:38.350  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:27:38.675  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: a.car-container
+11:27:39.863  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: a.car-container
+11:27:39.866  INFO  manager.ListenerWD - List size is ---->10
+11:27:39.878  INFO  TestBase - In the assertion, it is checked whether there were cars for the current month
+11:27:41.887  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+11:27:41.928  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+11:27:42.051  INFO  manager.HelperBase - We returned to Search Page
+11:27:42.052  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:27:42.089  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:27:42.393  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:27:42.487  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+11:27:47.949  INFO  manager.ListenerWD - We have a 'problem'
+11:27:47.950  INFO  manager.ListenerWD - The name of error method click
+11:27:47.956  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db0aad65939b7da57a4a591748bcaef0, clickElement {id=eb904297-de14-4ec3-ba1b-148f956be929}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir9924_1678...}, goog:chromeOptions: {debuggerAddress: localhost:51128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51128/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (db0aad65939b7da57a4a591748bcaef0)] -> css selector: div.pac-item]
+Session ID: db0aad65939b7da57a4a591748bcaef0
+11:27:47.965  INFO  manager.ListenerWD - Screen with error is 1658___src/test/screenshots/screen1658.png

@@ -1,0 +1,38 @@
+15:01:40.090  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:01:41.269  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+15:01:45.449  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+15:01:45.523  INFO  TestBase - Start Method with name --->searchInPast
+15:01:45.532  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+15:01:45.592  INFO  manager.ListenerWD - After find element by ---> By.id: city
+15:01:45.978  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+15:01:46.430  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+15:01:46.573  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+15:01:46.626  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+15:01:47.110  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+15:01:47.200  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+15:01:48.341  INFO  manager.ListenerWD - We have a 'problem'
+15:01:48.341  INFO  manager.ListenerWD - The name of error method click
+15:01:48.348  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-ktc-c72="" formcontrolname="dates" id="dates" class="ng-invalid ng-touched ng-dirty" aria-haspopup="dialog" min="2022-10-21" max="2023-10-21" aria-owns="sat-datepicker-0"> is not clickable at point (301, 331). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c0e3224bdd56cfc2740a7e1d228a4b8, clickElement {id=a99b5a4c-45d6-419a-9167-e12becd21d17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir7252_6489...}, goog:chromeOptions: {debuggerAddress: localhost:64418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64418/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3c0e3224bdd56cfc2740a7e1d228a4b8)] -> id: dates]
+Session ID: 3c0e3224bdd56cfc2740a7e1d228a4b8
+15:01:48.355  INFO  manager.ListenerWD - Screen with error is 1225___src/test/screenshots/screen1225.png
+15:01:48.406  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+15:01:48.515  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+15:01:49.621  INFO  manager.ListenerWD - We have a 'problem'
+15:01:49.621  INFO  manager.ListenerWD - The name of error method click
+15:01:49.622  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-ktc-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c0e3224bdd56cfc2740a7e1d228a4b8, clickElement {id=2f634c77-1e51-40e9-843f-81d321d1cd38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir7252_6489...}, goog:chromeOptions: {debuggerAddress: localhost:64418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64418/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3c0e3224bdd56cfc2740a7e1d228a4b8)] -> xpath: //a[text()=' Search ']]
+Session ID: 3c0e3224bdd56cfc2740a7e1d228a4b8
+15:01:49.622  INFO  manager.ListenerWD - Screen with error is 1422___src/test/screenshots/screen1422.png

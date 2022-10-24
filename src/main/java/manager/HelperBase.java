@@ -36,10 +36,12 @@ public class HelperBase {
         }
     }
     public void submit() {
-        new WebDriverWait(wd, Duration.ofSeconds(5))
-                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
-        wd.findElement(By.cssSelector("button[type='submit']")).click();
 
+        if(wd.findElement(By.cssSelector("[type='submit']")).isEnabled()) {
+            new WebDriverWait(wd, Duration.ofSeconds(5))
+                    .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
+            wd.findElement(By.cssSelector("button[type='submit']")).click();
+        }
 
 
 //        By.xpath("//button[text()='Y’alla!']");// - спец символ может не различать
@@ -53,6 +55,7 @@ public class HelperBase {
     }
     public void click(By locator){
         wd.findElement(locator).click();
+
     }
 
 

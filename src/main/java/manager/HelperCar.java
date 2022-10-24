@@ -63,7 +63,13 @@ public class HelperCar extends HelperBase{
     }
 
     public void returnToSearchPage() {
+        pause(2000);
         click(By.xpath("//a[text()=' Search ']"));
+        //click(By.cssSelector(".navigation-link[href='/search']"));
         logger.info("We returned to Search Page");
     }
+
+
+
+
 }

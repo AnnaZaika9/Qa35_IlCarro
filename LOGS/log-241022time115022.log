@@ -1,0 +1,85 @@
+11:50:28.337  INFO  manager.ApplicationManager - Chrome Driver was opened
+11:50:29.650  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:50:32.269  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:50:32.489  INFO  TestBase - Start Method with name --->searchAnyPeriod
+11:50:32.511  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:50:32.568  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:50:32.865  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:50:33.344  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+11:50:33.434  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+11:50:33.518  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+11:50:33.749  INFO  manager.HelperBase - year:   2022
+11:50:33.750  INFO  manager.HelperBase - day of month:   24
+11:50:33.752  INFO  manager.HelperBase - month value:   10
+11:50:33.753  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:33.828  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:33.989  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.050  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.148  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.194  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.284  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.320  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.394  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 20 ']
+11:50:34.434  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 20 ']
+11:50:34.539  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.601  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.689  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.745  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.898  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:34.931  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:35.032  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:35.060  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+11:50:35.155  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 10 ']
+11:50:35.199  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 10 ']
+11:50:35.825  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+11:50:35.860  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+11:50:35.884  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:50:35.926  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:50:36.056  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:50:36.096  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:50:36.296  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: a.car-container
+11:50:37.491  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: a.car-container
+11:50:37.492  INFO  manager.ListenerWD - List size is ---->10
+11:50:39.503  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+11:50:39.541  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+11:50:39.658  INFO  manager.HelperBase - We returned to Search Page
+11:50:39.659  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:50:39.702  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:50:39.788  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+11:50:39.828  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+11:50:39.942  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+11:50:39.944  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+11:50:39.977  INFO  manager.ListenerWD - After find element by ---> By.id: city
+11:50:40.196  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:50:40.226  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+11:50:40.314  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+11:50:40.363  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+11:50:40.489  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 28 ']
+11:50:40.526  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 28 ']
+11:50:42.640  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+11:50:47.766  INFO  manager.ListenerWD - We have a 'problem'
+11:50:47.767  INFO  manager.ListenerWD - The name of error method findElement
+11:50:47.784  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()=' 30 ']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4265d21accc640bfa3fe68a571df2b34, findElement {using=xpath, value=//div[text()=' 30 ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir2512_2060...}, goog:chromeOptions: {debuggerAddress: localhost:52309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52309/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4265d21accc640bfa3fe68a571df2b34
+11:50:47.827  INFO  manager.ListenerWD - Screen with error is 1825___src/test/screenshots/screen1825.png
+11:50:50.572  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //a[text()=' Search ']
+11:50:50.619  INFO  manager.ListenerWD - After find element by ---> By.xpath: //a[text()=' Search ']
+11:50:51.689  INFO  manager.ListenerWD - We have a 'problem'
+11:50:51.690  INFO  manager.ListenerWD - The name of error method click
+11:50:51.691  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qaa-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4265d21accc640bfa3fe68a571df2b34, clickElement {id=72b5577c-eed7-43bd-884e-11c9f412e63c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir2512_2060...}, goog:chromeOptions: {debuggerAddress: localhost:52309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52309/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4265d21accc640bfa3fe68a571df2b34)] -> xpath: //a[text()=' Search ']]
+Session ID: 4265d21accc640bfa3fe68a571df2b34
+11:50:51.692  INFO  manager.ListenerWD - Screen with error is 1355___src/test/screenshots/screen1355.png

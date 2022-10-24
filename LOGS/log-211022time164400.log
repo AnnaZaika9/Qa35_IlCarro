@@ -1,0 +1,24 @@
+16:44:06.027  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:44:07.584  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:44:10.084  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:44:10.188  INFO  TestBase - Start Method with name --->searchInPast
+16:44:10.201  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+16:44:10.275  INFO  manager.ListenerWD - After find element by ---> By.id: city
+16:44:10.628  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+16:44:11.096  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+16:44:11.208  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+16:44:11.263  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+16:44:11.893  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+16:44:11.949  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+16:44:13.039  INFO  manager.ListenerWD - We have a 'problem'
+16:44:13.040  INFO  manager.ListenerWD - The name of error method click
+16:44:13.046  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-uga-c72="" formcontrolname="dates" id="dates" class="ng-invalid ng-touched ng-dirty" aria-haspopup="dialog" min="2022-10-21" max="2023-10-21" aria-owns="sat-datepicker-0"> is not clickable at point (301, 331). Other element would receive the click: <table class="mat-calendar-table">...</table>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d84d8cbc7a4909fecd6f4428f7154d64, clickElement {id=eff05d3e-8571-4aec-8a63-11b7aad80169}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir23804_144...}, goog:chromeOptions: {debuggerAddress: localhost:55156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55156/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d84d8cbc7a4909fecd6f4428f7154d64)] -> id: dates]
+Session ID: d84d8cbc7a4909fecd6f4428f7154d64
+16:44:13.053  INFO  manager.ListenerWD - Screen with error is 1226___src/test/screenshots/screen1226.png

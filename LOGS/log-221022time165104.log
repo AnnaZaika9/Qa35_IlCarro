@@ -1,0 +1,14 @@
+16:51:09.722  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:51:10.841  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:51:12.709  INFO  manager.ListenerWD - We have a 'problem'
+16:51:12.710  INFO  manager.ListenerWD - The name of error method getCurrentUrl
+16:51:12.717  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [172ef1ead167e5c50edcb5e2959538e4, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir22416_124...}, goog:chromeOptions: {debuggerAddress: localhost:62704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62704/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 172ef1ead167e5c50edcb5e2959538e4
+16:51:12.731  INFO  manager.ListenerWD - Screen with error is 1696___src/test/screenshots/screen1696.png

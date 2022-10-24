@@ -136,4 +136,10 @@ public class HelperUser extends HelperBase {
         submit();
         clickOkButton();
     }
+
+    public boolean isErrorMessageDisplayed() {
+        String text = wd.findElement(By.cssSelector(".ng-star-inserted:first-child")).getText();
+        return text.contains("You can't pick date before today");
+    }
+
 }
