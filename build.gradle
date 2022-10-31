@@ -53,8 +53,8 @@ task carro(type: Test){
 
 }
 task groups(type : Test){
-    useTestNG(){
+    useTestNG() {
         suites 'src/test/resources/groups.xml'
 
-
+    }
 }
