@@ -91,10 +91,10 @@ public class HelperUser extends HelperBase {
     }
 
     public String getTitleMessage() {
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
 
-        //pause(2000);
+     //   pause(2000);
         return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
     }
 
@@ -138,8 +138,9 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isErrorMessageDisplayed() {
-        String text = wd.findElement(By.cssSelector(".ng-star-inserted:first-child")).getText();
-        return text.contains("You can't pick date before today");
+       // String text = wd.findElement(By.cssSelector(".ng-star-inserted:first-child")).getText();
+        String text =  wd.findElement(By.cssSelector("div.ng-star-inserted")).getText();
+        return text.equals("You can't pick date before today");
     }
 
 }

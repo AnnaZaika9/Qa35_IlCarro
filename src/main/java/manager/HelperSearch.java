@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -39,6 +40,7 @@ public class HelperSearch extends HelperBase {
     public void searchCurrentMonth2(String city, String dataFrom, String dataTo) {
 
         typeCity(city);
+        clearTextBoxDates();
         click(By.id("dates"));
 
         String[] from = dataFrom.split("/");
@@ -59,6 +61,7 @@ pause(2000);
 
     private void typeCity(String city) {
         type(By.id("city"), city);
+        pause(500);
         click(By.cssSelector("div.pac-item"));
 
 
@@ -73,6 +76,7 @@ pause(2000);
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
 
         typeCity(city);
+        clearTextBoxDates();
         click(By.id("dates"));
         click(By.cssSelector("[aria-label = 'Next month']"));
 
@@ -89,6 +93,7 @@ pause(2000);
 
     public void selectAnyPeriod(String city, String dataFrom, String dataTo) { //"11/10/2022"    "6/10/2023"
         typeCity(city);
+        clearTextBoxDates();
         click(By.id("dates"));
         // String nowData = "10/20/2022";
         LocalDate now = LocalDate.now();
@@ -138,7 +143,9 @@ pause(2000);
     public void typePeriodInPast(String city, String dataFrom, String dataTo) {
         //10/5/2022 - 10/10/2022
         typeCity(city);
-        type(By.id("dates"),dataFrom+ " - " +dataTo);
+        clearTextBoxDates();
+       // type(By.id("dates"),dataFrom+ " - " +dataTo);
+        typePeriod(dataFrom,dataTo);
 
 
 
@@ -146,17 +153,31 @@ pause(2000);
 
     }
 
-    public void clearFields() {
-       // wd.findElement(By.id("city")).clear();
-        WebElement city = wd.findElement(By.id("city"));
-        city.click();
-        city.clear();
+    private void typePeriod(String dataFrom, String dataTo) {
+        type(By.id("dates"),dataFrom + " - " + dataTo);
+        click(By.cssSelector(".cdk-overlay-container"));
+    }
 
-       // wd.findElement(By.id("dates")).clear();
-        WebElement dates = wd.findElement(By.id("dates"));
-        dates.click();
-        dates.clear();
 
+
+    public void clickLogo() {
+        click(By.cssSelector(".header a.logo"));
+    }
+
+    public void clearTextBoxDates(){
+        WebElement el = wd.findElement(By.id("dates"));
+       String osName = System.getProperty("os.name");
+        System.out.println(osName); ///Windows 10
+        if(osName.startsWith("Mac")){
+            logger.info("OS is ----> " + osName);
+            //Command + a
+            el.sendKeys(Keys.COMMAND,"a");
+        }else {
+            logger.info("OS is ----> " + osName);
+          //  Cntr + a
+            el.sendKeys(Keys.CONTROL,"a");
+        }
+        el.sendKeys(Keys.DELETE);
     }
 
 //    public boolean isDataCorrect(String from, String to) {

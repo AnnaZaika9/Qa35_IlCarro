@@ -36,16 +36,18 @@ public class HelperBase {
         }
     }
     public void submit() {
-
-        if(wd.findElement(By.cssSelector("[type='submit']")).isEnabled()) {
-            new WebDriverWait(wd, Duration.ofSeconds(5))
-                    .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
-            wd.findElement(By.cssSelector("button[type='submit']")).click();
-        }
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
 
 
 //        By.xpath("//button[text()='Y’alla!']");// - спец символ может не различать
 //        wd.findElement(By.xpath("//button[text()='Ok']")).click();
+
+    }
+    public void submitWithoutWait(){
+
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
 
     }
 

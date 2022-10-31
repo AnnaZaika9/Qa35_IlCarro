@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
 
         if (app.getHelperUser().isLogged()) {
@@ -44,7 +44,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void LoginSuccessModels() {
 
         User user = new User().withEmail("nik@gmail.com").withPassword("123589$Nik");
@@ -64,7 +64,7 @@ public class LoginTests extends TestBase {
         logger.info("Login negative scenario with wrong email was used data" + user.toString());
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        // app.getHelperUser().submit();
+         app.getHelperUser().submitWithoutWait();
         //Assert errorMessage
         //Assert button not active
         //HW
@@ -85,14 +85,14 @@ public class LoginTests extends TestBase {
         logger.info("Login negative scenario with wrong password was used data" + user.toString());
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submit();
+        app.getHelperUser().submitWithoutWait();
         //text message "Authorization error" // "Wrong email or password"
         Assert.assertEquals(app.getHelperUser().getMessage(), "Wrong email or password"); ////HW
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Authorization error");
         logger.info("In assert checked message 'Authorization error' & 'Wrong email or password' in dialog  ");
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOkButton();
     }

@@ -12,7 +12,7 @@ public class HelperCar extends HelperBase{
 
     public void openCarForm() {
        // click(By.cssSelector("[href='/let-car-work']"));
-        pause(5000);
+        pause(500);
         click(By.id("1"));
     }
 
@@ -58,6 +58,7 @@ public class HelperCar extends HelperBase{
     }
 
     public void returnToHomePage() {
+        pause(2000);
         click(By.xpath("//button[text()='Search cars']"));
         logger.info("We returned to Home Page");
     }

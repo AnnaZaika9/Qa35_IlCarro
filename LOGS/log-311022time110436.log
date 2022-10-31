@@ -1,0 +1,84 @@
+11:04:45.994  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:04:50.306  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:04:50.433  INFO  TestBase - Start Method with name --->addCarSuccessDP
+11:04:50.439  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+11:04:55.492  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+11:04:55.493  INFO  manager.ListenerWD - List size is ---->0
+11:04:55.495  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: a[href ^='/login']
+11:04:55.547  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: a[href ^='/login']
+11:04:55.670  INFO  manager.ListenerWD - Before find element by ---> By.id: email
+11:04:55.722  INFO  manager.ListenerWD - After find element by ---> By.id: email
+11:04:56.111  INFO  manager.ListenerWD - Before find element by ---> By.id: password
+11:04:56.173  INFO  manager.ListenerWD - After find element by ---> By.id: password
+11:04:56.394  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+11:04:56.454  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+11:04:56.561  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:04:56.598  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:04:56.687  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+11:04:56.717  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+11:04:56.806  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //button[text()='Ok']
+11:04:57.509  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //button[text()='Ok']
+11:04:57.510  INFO  manager.ListenerWD - List size is ---->1
+11:04:57.510  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Ok']
+11:04:57.579  INFO  manager.ListenerWD - After find element by ---> By.xpath: //button[text()='Ok']
+11:04:57.672  INFO  manager.HelperBase - Click OK button was needed
+11:04:57.691  INFO  TestBase - The login was needed with user : User{name='null', lastname='null', email='nik@gmail.com', password='123589$Nik', phone='null'}
+11:04:57.825  INFO  TestBase - The test used car model : Car(location=Haifa, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=111-899-1618, price=65, distanceIncluded=800, features=Type of features, about=Very nice car)
+11:04:58.327  INFO  manager.ListenerWD - Before find element by ---> By.id: 1
+11:04:58.372  INFO  manager.ListenerWD - After find element by ---> By.id: 1
+11:04:58.507  INFO  manager.ListenerWD - Before find element by ---> By.id: pickUpPlace
+11:04:58.540  INFO  manager.ListenerWD - After find element by ---> By.id: pickUpPlace
+11:04:58.796  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+11:04:59.295  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+11:05:00.014  INFO  manager.ListenerWD - Before find element by ---> By.id: make
+11:05:00.055  INFO  manager.ListenerWD - After find element by ---> By.id: make
+11:05:00.229  INFO  manager.ListenerWD - Before find element by ---> By.id: model
+11:05:00.270  INFO  manager.ListenerWD - After find element by ---> By.id: model
+11:05:00.551  INFO  manager.ListenerWD - Before find element by ---> By.id: year
+11:05:00.598  INFO  manager.ListenerWD - After find element by ---> By.id: year
+11:05:00.919  INFO  manager.ListenerWD - Before find element by ---> By.id: engine
+11:05:00.961  INFO  manager.ListenerWD - After find element by ---> By.id: engine
+11:05:01.180  INFO  manager.ListenerWD - Before find element by ---> By.id: fuel
+11:05:01.221  INFO  manager.ListenerWD - After find element by ---> By.id: fuel
+11:05:01.371  INFO  manager.ListenerWD - Before find element by ---> By.id: gear
+11:05:01.418  INFO  manager.ListenerWD - After find element by ---> By.id: gear
+11:05:01.574  INFO  manager.ListenerWD - Before find element by ---> By.id: wheelsDrive
+11:05:01.625  INFO  manager.ListenerWD - After find element by ---> By.id: wheelsDrive
+11:05:01.737  INFO  manager.ListenerWD - Before find element by ---> By.id: doors
+11:05:01.795  INFO  manager.ListenerWD - After find element by ---> By.id: doors
+11:05:02.001  INFO  manager.ListenerWD - Before find element by ---> By.id: seats
+11:05:02.028  INFO  manager.ListenerWD - After find element by ---> By.id: seats
+11:05:02.238  INFO  manager.ListenerWD - Before find element by ---> By.id: class
+11:05:02.267  INFO  manager.ListenerWD - After find element by ---> By.id: class
+11:05:02.446  INFO  manager.ListenerWD - Before find element by ---> By.id: fuelConsumption
+11:05:02.476  INFO  manager.ListenerWD - After find element by ---> By.id: fuelConsumption
+11:05:03.634  INFO  manager.ListenerWD - We have a 'problem'
+11:05:03.635  INFO  manager.ListenerWD - The name of error method click
+11:05:03.641  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-rvy-c81="" autocomplete="none" formcontrolname="fuelConsumption" id="fuelConsumption" type="number" class="ng-untouched ng-pristine ng-invalid"> is not clickable at point (197, 490). Other element would receive the click: <label _ngcontent-rvy-c81="" for="fuelConsumption" class="input-label">...</label>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fedc7b16066a0fff390cf495213661b, clickElement {id=cd529ee3-da67-4867-aa20-b0caf0931218}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir14528_219...}, goog:chromeOptions: {debuggerAddress: localhost:54570}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54570/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0fedc7b16066a0fff390cf495213661b)] -> id: fuelConsumption]
+Session ID: 0fedc7b16066a0fff390cf495213661b
+11:05:03.649  INFO  manager.ListenerWD - Screen with error is 1361___src/test/screenshots/screen1361.png
+11:05:05.691  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Search cars']
+11:05:10.709  INFO  manager.ListenerWD - We have a 'problem'
+11:05:10.710  INFO  manager.ListenerWD - The name of error method findElement
+11:05:10.710  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fedc7b16066a0fff390cf495213661b, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir14528_219...}, goog:chromeOptions: {debuggerAddress: localhost:54570}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54570/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fedc7b16066a0fff390cf495213661b
+11:05:10.711  INFO  manager.ListenerWD - Screen with error is 1095___src/test/screenshots/screen1095.png
+11:05:10.819  INFO  TestBase - Start Method with name --->addCarSuccessDP
+11:05:10.821  INFO  manager.ListenerWD - before find elements by ---> By.xpath: //a[text()=' Logout ']
+11:05:10.854  INFO  manager.ListenerWD - After find elements by ---> By.xpath: //a[text()=' Logout ']
+11:05:10.856  INFO  manager.ListenerWD - List size is ---->1
+11:05:12.861  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //button[text()='Search cars']

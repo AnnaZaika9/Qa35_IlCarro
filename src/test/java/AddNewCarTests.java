@@ -1,3 +1,4 @@
+
 import manager.DataProviderCar;
 import models.Car;
 import models.User;
@@ -10,39 +11,20 @@ import java.util.Random;
 
 public class AddNewCarTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
          if (!app.getHelperUser().isLogged()){
-           //  app.getHelperUser().login(new User().withEmail("nik@gmail.com").withPassword("123589$Nik"));
              User user = new User().withEmail("nik@gmail.com").withPassword("123589$Nik");
              app.getHelperUser().login(user);
              logger.info("The login was needed with user : " +user.toString());
          }
 
     }
-    @Test(dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
-    public void addCarSuccessDP(Car car){
 
-
-        logger.info("The test used car model : " +car.toString());
-
-        app.helperCar().openCarForm();
-        app.helperCar().fillCarForm(car);
-        app.helperCar().attachPhoto("C:\\Users\\user\\Desktop\\anna\\TelRun\\Lessons\\GitHub\\Qa35_IlCarro\\src\\test\\resources\\car.jpg");
-        app.helperCar().submit();
-
-        Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
-        logger.info("In assert checked message 'Car added' in dialog  ");
-
-
-    }
-    @Test
+    @Test(groups = {"smoke","sanity"})
     public void addCarSuccess(){
         Random random = new Random();
-       int i =  random.nextInt(1000)+100;
-
-      //  logger.info("Test start with name: addCarSuccess");
-      //  logger.info("User login with data: email nik@gmail.com & password 123589$Nik ");
+        int i =  random.nextInt(1000)+100;
 
         Car car = Car.builder()
                 .location("Haifa,Israel")
@@ -72,13 +54,34 @@ public class AddNewCarTests extends TestBase{
 
         Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
         // logger.info("User adds car with data: " + car.toString());
-      //  logger.info("Assert passed");
+        //  logger.info("Assert passed");
+        logger.info("In assert checked message 'Car added' in dialog  ");
+
+
+    }
+    @Test(dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
+    public void addCarSuccessDP(Car car){
+        Random random = new Random();
+        int i = random.nextInt(1000)+1000;
+        car.setCarRegistrationNumber("111-899-" + i); //// временная заглушка
+
+
+        logger.info("The test used car model : " +car.toString());
+
+        app.helperCar().openCarForm();
+        app.helperCar().fillCarForm(car);
+        app.helperCar().attachPhoto("C:\\Users\\user\\Desktop\\anna\\TelRun\\Lessons\\GitHub\\Qa35_IlCarro\\src\\test\\resources\\car.jpg");
+       app.helperCar().pause(2000);
+        app.helperCar().submit();
+
+        Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
         logger.info("In assert checked message 'Car added' in dialog  ");
 
 
     }
 
-    @AfterMethod
+
+    @AfterMethod(alwaysRun = true)
     public void posCondition(){
         app.helperCar().returnToHomePage();
       //  logger.info("User returned to home page ");

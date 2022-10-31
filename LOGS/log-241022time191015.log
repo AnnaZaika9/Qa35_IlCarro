@@ -1,0 +1,85 @@
+19:10:21.777  INFO  manager.ApplicationManager - Chrome Driver was opened
+19:10:23.680  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+19:10:26.380  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+19:10:26.593  INFO  TestBase - Start Method with name --->searchAnyPeriod
+19:10:26.602  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+19:10:26.672  INFO  manager.ListenerWD - After find element by ---> By.id: city
+19:10:27.525  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+19:10:27.675  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+19:10:32.760  INFO  manager.ListenerWD - We have a 'problem'
+19:10:32.761  INFO  manager.ListenerWD - The name of error method click
+19:10:32.770  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d52e8a0d2997d112624b171fe39ff9ac, clickElement {id=626b3283-3783-4141-b56d-531a4df68a2a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10500_177...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d52e8a0d2997d112624b171fe39ff9ac)] -> css selector: div.pac-item]
+Session ID: d52e8a0d2997d112624b171fe39ff9ac
+19:10:32.781  INFO  manager.ListenerWD - Screen with error is 1296___src/test/screenshots/screen1296.png
+19:10:32.851  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .header a.logo
+19:10:33.143  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .header a.logo
+19:10:33.936  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+19:10:33.940  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+19:10:34.052  INFO  manager.ListenerWD - After find element by ---> By.id: city
+19:10:35.056  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+19:10:35.141  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+19:10:35.254  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+19:10:35.339  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+19:10:35.340  INFO  manager.HelperBase - OS is ----> Windows 10
+19:10:35.873  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+19:10:35.936  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+19:10:36.241  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 28 ']
+19:10:36.321  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 28 ']
+19:10:38.603  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 30 ']
+19:10:38.650  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 30 ']
+19:10:38.734  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+19:10:38.774  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+19:10:38.810  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+19:10:38.871  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+19:10:39.048  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+19:10:39.093  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+19:10:39.283  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: a.car-container
+19:10:40.460  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: a.car-container
+19:10:40.460  INFO  manager.ListenerWD - List size is ---->10
+19:10:40.464  INFO  TestBase - In the assertion, it is checked whether there were cars for the current month
+19:10:40.467  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .header a.logo
+19:10:40.500  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .header a.logo
+19:10:41.013  INFO  TestBase - Start Method with name --->searchInPast
+19:10:41.017  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+19:10:41.046  INFO  manager.ListenerWD - After find element by ---> By.id: city
+19:10:41.956  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+19:10:41.981  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+19:10:42.070  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+19:10:42.103  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+19:10:42.104  INFO  manager.HelperBase - OS is ----> Windows 10
+19:10:42.247  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+19:10:42.273  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+19:10:42.579  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: 
+19:10:42.647  INFO  manager.ListenerWD - We have a 'problem'
+19:10:42.648  INFO  manager.ListenerWD - The name of error method findElement
+19:10:42.651  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d52e8a0d2997d112624b171fe39ff9ac, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10500_177...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d52e8a0d2997d112624b171fe39ff9ac
+19:10:42.652  INFO  manager.ListenerWD - Screen with error is 1315___src/test/screenshots/screen1315.png
+19:10:43.548  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .header a.logo
+19:10:43.581  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .header a.logo
+19:10:44.663  INFO  manager.ListenerWD - We have a 'problem'
+19:10:44.664  INFO  manager.ListenerWD - The name of error method click
+19:10:44.664  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-gpt-c25="" href="/" class="logo">...</a> is not clickable at point (245, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d52e8a0d2997d112624b171fe39ff9ac, clickElement {id=7f6a4d11-8911-498f-a5b7-86528c69799a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10500_177...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d52e8a0d2997d112624b171fe39ff9ac)] -> css selector: .header a.logo]
+Session ID: d52e8a0d2997d112624b171fe39ff9ac
+19:10:44.665  INFO  manager.ListenerWD - Screen with error is 1626___src/test/screenshots/screen1626.png

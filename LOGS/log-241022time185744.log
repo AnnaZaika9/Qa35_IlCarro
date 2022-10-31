@@ -1,0 +1,44 @@
+18:57:52.487  INFO  manager.ApplicationManager - Chrome Driver was opened
+18:57:54.103  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+18:57:56.985  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+18:57:57.208  INFO  TestBase - Start Method with name --->searchAnyPeriod
+18:57:57.219  INFO  manager.ListenerWD - Before find element by ---> By.id: city
+18:57:57.286  INFO  manager.ListenerWD - After find element by ---> By.id: city
+18:57:57.769  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: div.pac-item
+18:57:58.352  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: div.pac-item
+18:57:58.581  INFO  manager.ListenerWD - Before find element by ---> By.id: dates
+18:57:58.646  INFO  manager.ListenerWD - After find element by ---> By.id: dates
+18:57:58.883  INFO  manager.HelperBase - year:   2022
+18:57:58.884  INFO  manager.HelperBase - day of month:   24
+18:57:58.885  INFO  manager.HelperBase - month value:   10
+18:57:58.886  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.077  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.248  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.331  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.470  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.521  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.627  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.695  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:57:59.785  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 20 ']
+18:57:59.831  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 20 ']
+18:58:00.000  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.137  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.294  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.337  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.465  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.512  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.654  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.710  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[aria-label='Next month']
+18:58:00.827  INFO  manager.ListenerWD - Before find element by ---> By.xpath: //div[text()=' 10 ']
+18:58:00.873  INFO  manager.ListenerWD - After find element by ---> By.xpath: //div[text()=' 10 ']
+18:58:01.549  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: [type='submit']
+18:58:01.583  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: [type='submit']
+18:58:01.602  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+18:58:01.631  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+18:58:01.750  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: button[type='submit']
+18:58:01.785  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: button[type='submit']
+18:58:01.974  INFO  manager.ListenerWD - before find elements by ---> By.cssSelector: a.car-container
+18:58:03.746  INFO  manager.ListenerWD - After find elements by ---> By.cssSelector: a.car-container
+18:58:03.748  INFO  manager.ListenerWD - List size is ---->10
+18:58:03.766  INFO  manager.ListenerWD - Before find element by ---> By.cssSelector: .header a.logo
+18:58:03.869  INFO  manager.ListenerWD - After find element by ---> By.cssSelector: .header a.logo
