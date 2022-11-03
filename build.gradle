@@ -34,7 +34,6 @@ task carro(type: Test){
             includeGroups groups
         }
 
-
         def suite = System.getProperty('suite','')
 
         if(suite.equals("testng")){
@@ -45,7 +44,6 @@ task carro(type: Test){
             suites 'src/test/resources/alltests.xml'
 
         }
-
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
@@ -59,6 +57,5 @@ task groups(type : Test){
         if(project.hasProperty('browser')){
             systemProperty 'browser', "${browser}"
         }
-
     }
 }
